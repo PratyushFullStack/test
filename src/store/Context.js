@@ -7,8 +7,8 @@ const Context = React.createContext({
     userLogout: ()=>{},
     items:[],
     totalAmount:0,
-    addItem: (item)=>{},
-    removeItem: (item)=>{}
+    addItem: (someItem)=>{},
+    removeItem: (someItem)=>{}
 })
 
 export default Context
